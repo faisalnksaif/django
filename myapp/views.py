@@ -16,6 +16,8 @@ def index(request):
 
 
 #for registering a student
+
+
 @csrf_exempt 
 def registerStudent(request):
     res = {}

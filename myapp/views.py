@@ -14,6 +14,8 @@ def index(request):
     student.save()
     return HttpResponse("Hello, world. You're at the polls index.")
 
+
+#for registering a student
 @csrf_exempt 
 def registerStudent(request):
     res = {}
